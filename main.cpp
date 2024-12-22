@@ -16,7 +16,7 @@ int main() {
 
     // Attempt to generate and print purchase summaries - print error if fails
     if (!generateSummaries("people.txt", people)) {
-        cerr << "Failed to generate summaries." << endl;
+        cerr << "Failed to generate summaries" << endl;
         return 2;
     }
 
